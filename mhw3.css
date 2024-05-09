@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+  }
+  
+  a {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 1px 15px;
+    border-radius: 5px;
+  }
+
+  nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .fit {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.allmodels{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+#sec_bmw_motorrad_standard{
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 255);
+    background-image: url("BMW_logo_(gray).svg.png");
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.choose-model-container{
+  background-color: white;
+  height: min-content;
+  text-align: center;
+  border: 10PX;
+}
+
+h2{
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+}
+
+
+#Bikes_models-first-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#row{
+  display: flex;
+  font-family: Helvetica, sans-serif;
+}
+.item-row{
+  border-radius: 5px;
+  background-color: white;
+  height: 80px;;
+  width: 90%;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgb(117, 117, 117);
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  max-width: 99%;
+  max-height: 99%;
+}
+
+b {
+  font-weight: bold;
+  padding: 1px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.fit-spaces {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.model{
+  display: flexbox;
+  justify-content:space-between;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  max-width: 99%;
+  max-height: 99%;
+  font-weight: bold;
+  padding: 1px 15px;
+  border-radius: 5px;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#bike-album img {
+  border: 1px solid slategray;
+  margin: 5px;
+  padding: 5px;
+  height: 150px;
+}
+
+#modal-view {
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-view img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#modal-view.hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
